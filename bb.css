@@ -1,0 +1,229 @@
+body {
+    background-image: url("images/bb_back.png");
+    margin: 0;
+}
+img {
+    border: 0 none;
+}
+#mainTable {
+    background-color: #F6F2E3;
+    border-collapse: separate;
+    border-spacing: 5px;
+    box-shadow: 1px 1px 3px #CCCCCC;
+    margin: 25px auto;
+    padding: 30px 30px 10px;
+    width: 682px;
+}
+.bb-map {
+    display: inline-block;
+    width: 36%;
+}
+.bb-header {
+    padding-bottom: 8px;
+}
+.bb-left-pane {
+    display: inline-block;
+    vertical-align: top;
+    width: 63%;
+}
+.bb-right-pane {
+    display: inline-block;
+    width: 36%;
+}
+.bb-content {
+    margin-top: 5px;
+}
+.bb-infohead, .bb-infobody, a.cleanlink, .bb-aboutus, .bb-sig, .bb-section-hdr, .bb-info-text {
+    color: #C02B57;
+}
+a.cleanlink {
+    text-decoration: none;
+}
+a.cleanlink:hover {
+    text-decoration: underline;
+}
+.bb-info {
+    vertical-align: top;
+}
+.bb-left-bottom {
+}
+.bb-right-bottom {
+    margin-top: 19px;
+    padding: 0 5px;
+}
+.bb-infohead, .bb-side-toolbar-content, .bb-feedback-form, .bb-aboutus, .bb-section-hdr, .bb-feedback-link, .bb-sig {
+    font-family: QuickSand,Candara,Arial,sans-serif;
+}
+.bb-infohead {
+    line-height: 170%;
+}
+.bb-infohead {
+    font-size: 15.5px;
+    height: 520px;
+}
+.bb-infobody {
+    font-size: 13.5px;
+}
+.bb-aboutus {
+    font-size: 0.8em;
+    height: 206px;
+    line-height: 120%;
+    padding: 14px 6px 0 5px;
+    text-align: justify;
+    vertical-align: top;
+}
+.bb-gal {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 63%;
+}
+.bb-gal-cont {
+    background-color: #F6F2E3;
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px;
+    position: relative;
+}
+.bb-sig {
+    border-top: 1px solid;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-top: 2px;
+    text-align: center;
+    width: 100%;
+}
+.bb-hidden {
+    display: none;
+}
+.bb-fill {
+    height: 100%;
+    width: 100%;
+}
+.bb-thumbnail {
+    left: 5px;
+    top: 5px;
+    width: 300px;
+    height: 200px;
+    background-color: #E7E3D8;
+}
+.bb-thumb {
+    border-bottom: 3px solid #FFFFFF;
+    padding-top: 10px;
+}
+.bb-thumb:hover {
+    border-bottom: 3px solid #C02B57;
+}
+.bb-section-hdr {
+    font-size: 2em;
+}
+.bb-bottom-pane {
+    margin-top: 20px;
+}
+.bb-menu-link, .bb-map-link {
+    border: 1px solid #CCCCCC;
+    margin-top: 5px;
+    padding: 5px;
+}
+.bb-feedback-toolbar {
+    background-color: #C02B57;
+    border-radius: 9px 0 0 0;
+    bottom: 0;
+    box-shadow: 6px 1px 4px 2px #999999;
+    padding: 0.5em;
+    position: fixed;
+    right: 0;
+}
+.bb-feedback-link {
+    color: white !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bb-feedback {
+    background-color: #C02B57;
+    border-radius: 10px 10px 10px 10px;
+    bottom: 40px;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+}
+.bb-feedback-body {
+    background-color: white;
+    padding: 9px;
+}
+.bb-feedback-form-name, .bb-feedback-form-email {
+    margin-top: 5px;
+}
+.bb-button {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    border-radius: 9px 9px 9px 9px;
+    color: #C02B57;
+}
+.invisible {
+    display: none;
+}
+.bb-button:hover {
+    cursor: pointer;
+}
+.watermark, .optionalWatermark { 
+	color: #999; 
+}
+.optionalWatermark {
+	font-style: italic;
+}
+.bb-side-toolbar {
+    background-color: #F6F2E3;
+    border: 2px solid white;
+    border-radius: 0 13px 13px 0;
+    border-left: 0;
+    left: 0;
+    padding: 10px 0 10px 0;
+    position: fixed;
+    top: 215px;
+    z-index: 1;
+}
+.bb-side-toolbar-content {
+    float: left;
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bb-side-toolbar-icons {
+    border-left: 1px solid white;
+    float: right;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.bb-side-toolbar-content-slice {
+    height: 48px;
+}
+#bb-feedback-status {
+	color: white;
+    float: right;
+    padding: 5px 5px 0 0;
+}
+.bb-side-toolbar-icons img {
+    margin: 12px 0;
+}
+.bb-feedback-form-fields {
+	display: block; 
+	margin-right: 0px; 
+	margin-left: auto; 
+	width: 250px;
+}
+.bb-feedback-form-label {
+	display: block; 
+	width: 46px; 
+	float: left;
+}
+.bb-feedback-form-textbox {
+	width: 187px;
+	margin-left: 10px;
+}
+.bb-feedback-form-textarea {
+	width: 301px; 
+	height: 180px;
+}
